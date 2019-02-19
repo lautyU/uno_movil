@@ -50,26 +50,74 @@ nav ul a{
 nav ul a:hover{
 	background:white;
 	color: rgb(202, 0, 0);
+	box-shadow: 1px 1px 10px #000;
 }
 
+
+#main{
+	width: 960px;
+}
 
 #seccion{
-	margin: 10px;
-	width: 800px;
+	width: 600px;
 	min-height: 400px;
 	background: darkred;
+	margin: 10px;
 	box-shadow: 1px 1px 10px #000;
 	display: inline-block;
+	padding-bottom: 20px;
 }
 
-#lateral{
-	width: 300px;
-	min-height: 300px;
-	background: darkred;
-	box-shadow: 1px 1px 10px #000;
-	display: inline-block;
+article{
+	margin: 10px;
+	width: 90%;
+	height: 280px;
+	background: #6e6e6e;
 	
 }
 
+article h2{
+	color: white;
+	background: black;
+	text-align: center;	
+}
+
+article img{
+	height: 250px;
+	float: left;
+	padding: 20px;
+}
+
+article p{
+	color:#f2f2f2;
+	font-family: verdana;
+	font-size: 20px;
+	padding-top: 90px; 
+}
+
+aside{
+	display:inline-block;
+	width: 300px;
+	min-height: 400px;
+	background: darkred;
+	float: right;
+	margin: 10px;
+}
+
+aside section{
+	margin-bottom: 10px;
+	width: 80%;
+	
+	background: rgb(218, 75, 32);	
+}
+
+#masvistas{
+	height: 400px;
+}
+
+#categorias{
+	background: rgb(189, 90, 90);
+	height: 300px;
+}
 
 
