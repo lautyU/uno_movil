@@ -45,12 +45,14 @@ nav ul a{
 	color: white;
 	font-size: 20px;
 	padding:10px;
+	text-decoration: underline;
 }
 
 nav ul a:hover{
 	background:white;
 	color: rgb(202, 0, 0);
 	box-shadow: 1px 1px 10px #000;
+
 }
 
 
@@ -134,4 +136,6 @@ footer div{
 	color: white;
 	font-size: 25px;
 }
-
+footer div a{
+	color:white;
+}
