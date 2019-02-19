@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Noticias</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
 	<!-- Encabezado -->
