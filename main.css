@@ -5,6 +5,8 @@
 	border:0;
 	vertical-align: baseline;
 	box-sizing: border-box;	
+	list-style: none;
+
 }
 
 body{
@@ -45,7 +47,6 @@ nav ul a{
 	color: white;
 	font-size: 20px;
 	padding:10px;
-	text-decoration: underline;
 }
 
 nav ul a:hover{
@@ -70,25 +71,35 @@ nav ul a:hover{
 	padding-bottom: 20px;
 }
 
-article{
-	margin: 10px;
+
+
+section ul li{
 	width: 90%;
-	height: 280px;
-	background: #6e6e6e;
-	
+	height: 90px;
+	background: rgb(259, 4, 0);
+	margin:10px;
+	padding: 2px;
 }
 
-article h2{
-	color: white;
-	background: black;
-	text-align: center;	
-}
-
-article img{
-	height: 250px;
+section ul li img{
 	float: left;
-	padding: 20px;
+	width: 50px;
+	height: 60px;
+	margin-top: 15px;
+	margin-left: 20px;
 }
+
+
+section ul li:hover{
+	background: #ccc;
+	height: 120px;
+	cursor: pointer;
+}
+
+
+
+
+
 
 article p{
 	color:#f2f2f2;
@@ -100,10 +111,11 @@ article p{
 aside{
 	display:inline-block;
 	width: 300px;
-	min-height: 400px;
+	min-height: 100px;
 	background: darkred;
 	float: right;
 	margin: 10px;
+	box-shadow: 1px 1px 10px #000;
 }
 
 aside section{
@@ -114,28 +126,18 @@ aside section{
 }
 
 #masvistas{
-	height: 400px;
+	height: 200px;
 }
 
 #categorias{
 	background: rgb(189, 90, 90);
-	height: 300px;
+	height: 100px;
 }
 
 footer{
-	width: 100%;
-	height: 90px;
-	background: rgb(202, 0, 0);
-}
-
-footer div{
-	margin:auto;
-	padding-top: 5px;
-	width: 30%;
-	height: 45px;
-	color: white;
-	font-size: 25px;
-}
-footer div a{
-	color:white;
+	width: 925px;
+	height: 80px;
+	margin: auto;
+	background: darkred;
+	box-shadow: 1px 1px 10px #000;
 }
