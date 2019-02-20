@@ -124,7 +124,16 @@ aside section{
 	
 	background: rgb(218, 75, 32);	
 }
-
+aside section li{
+	width: 30%;
+	height: 40px;
+	background: rgb(230, 4, 0);
+	margin:10px;
+	padding: 5px;
+}
+#top:hover{
+	
+}
 #masvistas{
 	height: 200px;
 }
@@ -140,4 +149,19 @@ footer{
 	margin: auto;
 	background: darkred;
 	box-shadow: 1px 1px 10px #000;
+
+}
+footer div div{
+	float: right;
+	font-size: 20px;
+	color: black;
+	
+}
+#redes{
+	text-decoration: underline;
+	color:black;
+	font-size: 15px;
+}
+
+
 }
