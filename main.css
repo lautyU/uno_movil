@@ -14,7 +14,7 @@ body{
 }
 
 header{
-	background-color: darkred;
+	background-color: #277DAE;
 	width: 100%;
 	height: 130px;
 	padding-top: 10px;
@@ -31,7 +31,7 @@ header h1{
 nav{
 	width: 100%;
 	height: 40px;
- 	background: rgb(202, 0, 0);
+ 	background: #42AFEE;
  	border-bottom: 1px solid black;
  	
 }
@@ -51,7 +51,7 @@ nav ul a{
 
 nav ul a:hover{
 	background:white;
-	color: rgb(202, 0, 0);
+	color: #CAE4F3;
 	box-shadow: 1px 1px 10px #000;
 
 }
@@ -64,7 +64,7 @@ nav ul a:hover{
 #seccion{
 	width: 600px;
 	min-height: 400px;
-	background: darkred;
+	background: #44B0D4;
 	margin: 10px;
 	box-shadow: 1px 1px 10px #000;
 	display: inline-block;
@@ -76,7 +76,7 @@ nav ul a:hover{
 section ul li{
 	width: 90%;
 	height: 90px;
-	background: rgb(259, 4, 0);
+	background: #E3F5FB;
 	margin:10px;
 	padding: 2px;
 }
@@ -112,13 +112,13 @@ aside{
 	display:inline-block;
 	width: 300px;
 	min-height: 100px;
-	background: darkred;
+	background: #44B0D4;
 	float: right;
 	margin: 10px;
 	box-shadow: 1px 1px 10px #000;
 }
 aside ul li:hover{
-	background: #ccc;
+	background: #0D87AF;
 	height: 50px;
 	cursor: pointer;}
 
@@ -126,12 +126,12 @@ aside section{
 	margin-bottom: 10px;
 	width: 80%;
 	
-	background: rgb(218, 75, 32);	
+	background:#CAE4F3;	
 }
 aside section li{
 	width: 30%;
 	height: 40px;
-	background: rgb(230, 4, 0);
+	background: #0D87AF;
 	margin:15px;
 	padding: 5px;
 }
@@ -140,7 +140,7 @@ aside section li{
 }
 
 #categorias{
-	background: rgb(189, 90, 90);
+	background: #307E98;
 	height: 100px;
 }
 
@@ -148,7 +148,7 @@ footer{
 	width: 925px;
 	height: 80px;
 	margin: auto;
-	background: darkred;
+	background:  #277DAE;
 	box-shadow: 1px 1px 10px #000;
 
 }
