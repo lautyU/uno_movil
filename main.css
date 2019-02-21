@@ -117,6 +117,10 @@ aside{
 	margin: 10px;
 	box-shadow: 1px 1px 10px #000;
 }
+aside ul li:hover{
+	background: #ccc;
+	height: 50px;
+	cursor: pointer;}
 
 aside section{
 	margin-bottom: 10px;
@@ -128,11 +132,8 @@ aside section li{
 	width: 30%;
 	height: 40px;
 	background: rgb(230, 4, 0);
-	margin:10px;
+	margin:15px;
 	padding: 5px;
-}
-#top:hover{
-	
 }
 #masvistas{
 	height: 200px;
